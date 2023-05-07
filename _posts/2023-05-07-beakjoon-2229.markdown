@@ -1,0 +1,56 @@
+---
+layout: post
+title: "[Algo] 백준 2229 조 짜기_자바"
+date: 2023-05-07 21:02:17 +0900
+categories: Algorithm
+---
+
+문제 바로가기 : [https://www.acmicpc.net/problem/2229](https://www.acmicpc.net/problem/2229)
+
+메모리 : 14904KB
+
+시간 : 156ms
+
+언어 : Java 11
+
+---
+
+### 코드
+
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int[] dp = new int[1001]; // 메모이제이션
+        int[] arr = new int[N + 1]; // 원본배열
+        for (int i = 1; i <= N; i++) {
+            // 항상 최소최대값을 갱신해야한다.
+            int max = 0;
+            int min = Integer.MAX_VALUE;
+            arr[i] = Integer.parseInt(st.nextToken());
+            for (int j = i; j > 0; j--) {
+                max = Math.max(max, arr[j]); // 숫자 중 가장 큰 것
+                min = Math.min(min, arr[j]); // 숫자 중 가장 작은 것
+                // dp[i]= 해당 구간에서 가장 큰 값((최대 - 최소) + j-1의 최대값)
+                dp[i] = Math.max(dp[i], max - min + dp[j - 1]);
+            }
+        }
+        System.out.println(dp[N]);
+    }
+}
+```
+
+### 풀이
+
+dp인 것은 바로 알았으나.. 어떻게? 가 오래 걸렸다. 학생 수 N이 1000명이고 제한시간이 2초라서 메모이제이션을 한 후 완탐으로 최댓값을 찾아야겠다고 생각했다. 원래 최댓값과 최소값의 차이를 다 구한 뒤 완탐을 시도하려했는데 그러면 1000\*1000을 두 번 해야 해서 입력을 받으면서 최대값을 구해나가는 방식으로 선회했다.
+
+현재 i값에서부터 뒤로 가면서 최소최대값의 차이 + 그때까지의 최대값(dp[j-1]) 중 최대값을 찾는다.
+일종의 바텀업같기도 하다.
