@@ -1,0 +1,58 @@
+---
+layout: post
+title: "[Algo] 백준 28018 시간이 겹칠까? JAVA "
+date: 2023-05-08 22:55:00 +0900
+categories: Algorithm
+---
+
+문제 바로가기 : [https://www.acmicpc.net/problem/28018](https://www.acmicpc.net/problem/28018)
+
+메모리 : 51300KB
+
+시간 : 500ms
+
+언어 : Java 11
+
+---
+
+### 코드
+
+```java
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(br.readLine());
+        StringTokenizer st;
+        int[] dp = new int[1000002];
+        for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
+            int start = Integer.parseInt(st.nextToken());
+            int end = Integer.parseInt(st.nextToken());
+            dp[start]++;
+            dp[end + 1]--;
+        }
+        for (int i = 1; i < 1000001; i++) {
+            dp[i] += dp[i - 1];
+        }
+        StringBuilder sb = new StringBuilder();
+        int Q = Integer.parseInt(br.readLine());
+        st = new StringTokenizer(br.readLine());
+        for (int i = 0; i < Q; i++) {
+            int num = Integer.parseInt(st.nextToken());
+            sb.append(dp[num]).append("\n");
+        }
+        System.out.print(sb);
+    }
+}
+```
+
+### 풀이
+
+맨 처음에는 누적합이라는 생각을 못하고 정렬+그리디로 풀어보려고 시도했으나.. 어떻게 해도 10만\*10만을 피할 수 없을 것 같다는 생각에 막막했다.. 먼저 푼 친구한테 누적합이라는걸 듣고 다시 풀이 시도
+1 3인 경우에 123을 모두 체크하는 것이 아니라 1에서 들어옴을 체크하고 (+1) 4에서 나감을 체크한 후(-1) 누적합으로 해당 시간에 몇 명이 앉아있는지 계산할 수 있다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Algo] 백준 2229 조 짜기_자바"
+title: "[Algo] 백준 2229 조 짜기 JAVA"
 date: 2023-05-07 21:02:17 +0900
 categories: Algorithm
 ---
