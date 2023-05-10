@@ -35,7 +35,7 @@ public class Main {
             int start = Integer.parseInt(st.nextToken());
             int end = Integer.parseInt(st.nextToken());
             dp[start]++;
-            dp[end + 1]--;
+            dp[end + 1]--; //end에는 예약을 못한다.
         }
         for (int i = 1; i < 1000001; i++) {
             dp[i] += dp[i - 1];
