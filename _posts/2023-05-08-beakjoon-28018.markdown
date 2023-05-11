@@ -38,7 +38,7 @@ public class Main {
             dp[end + 1]--; //end에는 예약을 못한다.
         }
         for (int i = 1; i < 1000001; i++) {
-            dp[i] += dp[i - 1];
+            dp[i] += dp[i - 1]; //누적합
         }
         StringBuilder sb = new StringBuilder();
         int Q = Integer.parseInt(br.readLine());
