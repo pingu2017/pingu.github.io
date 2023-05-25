@@ -143,7 +143,7 @@ code {
   font-size: 100%;
   font-family: "Noto Sans";
   text-transform: uppercase;
-  border-bottom: 1px solid #cb26bd;
+  border-bottom: 1px solid #aa019c;
   margin-bottom: 5px;
 }
 
@@ -290,7 +290,7 @@ header.home {
 
 .post-title {
   font-size: 1.5em;
-  color: #59005b;
+  color: #aa019c;
   font-weight: bold;
 }
 
