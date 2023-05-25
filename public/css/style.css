@@ -107,7 +107,7 @@ code {
   flex: 0 0 220px;
   padding: 15px;
   z-index: 1;
-  background-color: #fff;
+  background-color: #edbff5;
   color: #fff;
 }
 
@@ -123,12 +123,12 @@ code {
 .sidebar-brand > a {
   font-size: 300%;
   font-family: "Gelasio";
-  color: #fff;
+  color: #aa019c;
 }
 
 .lead {
   font-size: 120%;
-  color: #aaa;
+  color: #a96da3;
 }
 
 .sidebar-header {
@@ -143,7 +143,7 @@ code {
   font-size: 100%;
   font-family: "Noto Sans";
   text-transform: uppercase;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #cb26bd;
   margin-bottom: 5px;
 }
 
@@ -151,11 +151,11 @@ a.nav-item {
   font-size: 120%;
   font-family: "Noto Sans";
   text-transform: capitalize;
-  color: #aaa;
+  color: #aa019c;
 }
 
 a.nav-item:hover {
-  color: #777;
+  color: #860289;
 }
 
 .badge {
