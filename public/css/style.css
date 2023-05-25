@@ -108,7 +108,7 @@ code {
   padding: 15px;
   z-index: 1;
   background-color: #edbff5;
-  color: #fff;
+  color: #cb26bd;
 }
 
 .sidebar-item {
@@ -290,7 +290,7 @@ header.home {
 
 .post-title {
   font-size: 1.5em;
-  color: #111;
+  color: #59005b;
   font-weight: bold;
 }
 
