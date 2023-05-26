@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Springboot] @Transcational "
+title: "[Springboot] @Transcational @Modifying"
 date: 2023-05-25 23:47:00 +0900
 categories: TIL
 ---
