@@ -80,6 +80,7 @@ permalink: /about/
 
 - 2023.01 ~ 2023.02 **달뜸**
 
+  - [상세보기](/_posts/popol.md)
   - 영화덕후들을 위한 영화 커뮤니티
   - JPA를 이용한 백엔드 개발
   - [https://github.com/pingu2017/ssafy8_moonrise](https://github.com/pingu2017/ssafy8_moonrise)
