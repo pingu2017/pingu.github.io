@@ -73,25 +73,26 @@ permalink: /about/
 
 ---
 
-- 2023.01 ~ 2023.02 **달뜸**
-
-  - [상세보기](/_posts/popol.md)
-  - 영화덕후들을 위한 영화 커뮤니티
-  - JPA를 이용한 백엔드 개발
-  - [https://github.com/pingu2017/ssafy8_moonrise](https://github.com/pingu2017/ssafy8_moonrise)
-
-  <br>
-
 - 2023.03 ~ 2023.04 **맞닥**
 
+  - [상세보기](https://pingu2017.github.io/project/2023/02/20/matdoc.html)
   - 원하는 병원을 빠르게 찾을 수 있는 서비스
   - Hadoop을 이용한 데이터 분산처리 및 백엔드 개발
   - [https://github.com/pingu2017/ssafy8_matdoc](https://github.com/pingu2017/ssafy8_matdoc)
 
-<br>
+  <br>
 
 - 2023.04 ~ 2023.05 **우아한**
-  - [상세보기](https://pingu2017.github.io/project/2023/01/01/wooahan.html)
+  - [상세보기](https://pingu2017.github.io/project/2023/04/10/wooahan.html)
   - 어린이들의 한글 교육을 위한 교육용 게임 모바일 어플리케이션
   - React를 이용한 프론트엔드 화면 개발
   - [https://github.com/pingu2017/ssafy8_wooahan](https://github.com/pingu2017/ssafy8_wooahan)
+
+<br>
+
+- 2023.01 ~ 2023.02 **달뜸**
+
+  - [상세보기](https://pingu2017.github.io/project/2023/01/02/dal.html)
+  - 영화덕후들을 위한 영화 커뮤니티
+  - JPA를 이용한 백엔드 개발
+  - [https://github.com/pingu2017/ssafy8_moonrise](https://github.com/pingu2017/ssafy8_moonrise)
