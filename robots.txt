@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pingu2017.github.io/sitemap.xml
