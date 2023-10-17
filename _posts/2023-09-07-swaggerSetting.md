@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SpringBoot] Swagger 설정"
-date: 2023-09-08 21:02:17 +0900
+date: 2023-09-07 21:02:19 +0900
 categories: TIL
 ---
 
@@ -18,6 +18,8 @@ pom.xml에 추가
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
     <version>2.2.0</version>
 </dependency>
+
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 ```
 
 SwaggerConfig.java
