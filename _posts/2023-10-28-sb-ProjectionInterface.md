@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[SpringBoot] Interface 기반 Projection"
-date: 2023-10-28 21:02:19 +0900
+date: 2023-10-28 12:02:19 +0900
 categories: TIL
 ---
 
