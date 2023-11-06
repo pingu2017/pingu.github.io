@@ -107,8 +107,8 @@ code {
   flex: 0 0 220px;
   padding: 15px;
   z-index: 1;
-  background-color: #edbff5;
-  color: #cb26bd;
+  background-color: #4f0048;
+  color: #fce7fa;
 }
 
 .sidebar-item {
@@ -123,7 +123,7 @@ code {
 .sidebar-brand > a {
   font-size: 300%;
   font-family: "Gelasio";
-  color: #aa019c;
+  color: #fce7fa;
 }
 
 .lead {
@@ -143,7 +143,7 @@ code {
   font-size: 100%;
   font-family: "Noto Sans";
   text-transform: uppercase;
-  border-bottom: 1px solid #aa019c;
+  border-bottom: 1px solid #fdd4f9;
   margin-bottom: 5px;
 }
 
@@ -151,11 +151,11 @@ a.nav-item {
   font-size: 120%;
   font-family: "Noto Sans";
   text-transform: capitalize;
-  color: #aa019c;
+  color: #ffffff;
 }
 
 a.nav-item:hover {
-  color: #860289;
+  color: #f68cf7;
 }
 
 .badge {
@@ -290,7 +290,7 @@ header.home {
 
 .post-title {
   font-size: 1.5em;
-  color: #aa019c;
+  color: rgb(70, 0, 64);
   font-weight: bold;
 }
 
