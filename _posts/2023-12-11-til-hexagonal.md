@@ -70,6 +70,8 @@ next cafe 프로젝트를 개발하는데 헥사고날 아키텍쳐를 사용하
   - 비즈니스 규칙을 위한 Service 개념이 존재할 수 있어야 하지만 static class의 메서드로만 정의
   - 실제로 gradle에 어떤 dependency도 포함하지 않음
 
+<br>
+
 - 애플리케이션 헥사곤
 
   - Domain의 구성요소를 사용하여 시스템이 가지는 기능/사례(usecase)를 정의한 집합
@@ -79,6 +81,8 @@ next cafe 프로젝트를 개발하는데 헥사고날 아키텍쳐를 사용하
   - POJO로 개발하고 다른 영역에서 DI를 제어해야 하지만 "Spring framework을 버리고 다른 DI Framework를 사용할 여지가 있는가?"라는 물음에 "그렇지 않다"라는 결론을 내렸고 각 기능(usecase) 들에 대하여 Service annotation을 사용한 Service로 정의
   - 의존성은 Domain Hexagon에 대해서만 가짐
 
+<br>
+
 - 프레임워크 헥사곤
 
   - Application hexagon이 소유한 outputPort (interface) 구현체들의 집합
@@ -86,9 +90,11 @@ next cafe 프로젝트를 개발하는데 헥사고날 아키텍쳐를 사용하
   - Application Hexagon과 마찬가지로 Spring에 대한 의존성은 가짐
   - 각 Framework Hexagon은 각 기술의 이름을 딴 config class를 포함하며, config class는 그 기술이 사용할 component들을 bean으로 등록할 수 있게 scan 영역을 격리
 
+<br>
+
 헥사고날 아키텍처라고 불리는 이유는 다이어그램으로 볼 때 코어가 중앙에 있고 포트와 어댑터가 측면을 형성하는 육각형과 유사하기 때문이다.
 
-헥사고날 아키텍쳐의 패키지
+**헥사고날 아키텍쳐의 패키지**
 
 ```
  ├─comment
@@ -151,17 +157,19 @@ next cafe 프로젝트를 개발하는데 헥사고날 아키텍쳐를 사용하
 
 포트와 어댑터가 분리되어있는, 즉 인터페이스로 인한 의존역전을 실행한 코드에서는 내부 구현이 다른 레이아웃에 영향을 미치지 않기 때문에 모듈화가 가능하다.
 
+---
+
 <details>
 <summary>참고자료</summary>
 <div markdown="1">
 
 https://techblog.woowahan.com/12720/
+
 https://youtu.be/saxHxoUeeSw?si=B3c5WKUOAESZaC0G
+
 https://youtu.be/dJ5C4qRqAgA?si=7Ffe3M1TYWaGoXwu
 
 </div>
 </details>
-
----
 
 헥사고날 아키텍처를 이해하기 위해 정말 많은 자료를 찾아본 것 같다. 아직도 완벽히 이해했다고 말할 수는 없지만 새로운 이슈를 만날 준비가 되었다고 생각한다!
