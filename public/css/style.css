@@ -293,7 +293,6 @@ header.home {
   font-size: 1.5em;
   color: rgb(70, 0, 64);
   font-weight: bold;
-  overflow-wrap: anywhere;
 }
 
 .post-date {

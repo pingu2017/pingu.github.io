@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "[trouble shooting] Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: No acceptable representation] "
+title: "[trouble shooting] Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: 
+No acceptable representation] "
 date: 2023-12-26 23:14:00 +0900
 categories: TIL
 ---
