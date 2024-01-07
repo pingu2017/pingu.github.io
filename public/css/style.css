@@ -98,7 +98,7 @@ code {
   /*margin-left: 180px;*/
   flex: 1 1 auto;
   padding: 0px 30px;
-  width: 100%;
+  width: 1rem;
 }
 
 .sidebar {
@@ -293,6 +293,7 @@ header.home {
   font-size: 1.5em;
   color: rgb(70, 0, 64);
   font-weight: bold;
+  overflow-wrap: anywhere;
 }
 
 .post-date {
