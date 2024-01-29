@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Querydsl] 동적 정렬 : OrderSpecifier "
-date: 2024-01-18 23:14:00 +0900
+date: 2033-01-18 23:14:00 +0900
 categories: TIL
 ---
 
