@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algo] 프로그래머스 파괴되지 않은 건물 JAVA "
-date: 2033-11-20 22:47:00 +0900
-categories: Algorithm
+title: "[TIL] service 끼리 참조하지 않도록 파사드 패턴을 사용해서 개발하자 "
+date: 9999-11-20 22:47:00 +0900
+categories: TIL
 ---
 
 ## 사건의 발단

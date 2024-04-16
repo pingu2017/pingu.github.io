@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[NextCafe] 패키지 재설계"
-date: 2023-12-31 23:14:00 +0900
+date: 9999-12-31 23:14:00 +0900
 categories: project
 ---
 
